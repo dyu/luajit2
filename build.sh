@@ -27,4 +27,4 @@ if [ "$UNAME" = "Darwin" ]; then
     MV="${VER%%.*}"
     export MACOSX_DEPLOYMENT_TARGET=$MV
 fi
-make PREFIX=/opt/luajit $@
+make PREFIX=/opt/luajit2 $@
